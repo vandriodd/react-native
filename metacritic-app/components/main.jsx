@@ -16,8 +16,8 @@ import { View, ActivityIndicator, FlatList } from "react-native";
 // 1.3 React Native Safe Area Context
 
 import { useSafeAreaInsets } from "react-native-safe-area-context";
-import GameCard from "./GameCard";
 import Logo from "./Logo";
+import AnimatedGameCard from "./GameCard";
 
 export default function Main() {
   const [games, setGames] = useState([]);
@@ -44,7 +44,9 @@ export default function Main() {
         <FlatList
           data={games}
           keyExtractor={(game) => game.slug}
-          renderItem={({ item }) => <GameCard game={item} />}
+          renderItem={({ item, index }) => (
+            <AnimatedGameCard game={item} index={index} />
+          )}
         />
       )}
     </View>
