@@ -1,0 +1,123 @@
+{
+  "titles": {
+    "nodes": [
+      {
+        "id": "game_001",
+        "title": "Elden Ring: Shadow of the Erdtree",
+        "description": "Una expansión épica que amplía el mundo de Elden Ring con nuevas zonas, jefes y desafíos.",
+        "releaseDate": "2024-06-21",
+        "rating": {
+          "average": 9.5
+        },
+        "primaryImage": {
+          "url": "https://picsum.photos/id/1/200/300"
+        }
+      },
+      {
+        "id": "game_002",
+        "title": "Starfield",
+        "description": "Una aventura espacial de exploración y rol desarrollada por Bethesda.",
+        "releaseDate": "2023-09-06",
+        "rating": {
+          "average": 8.3
+        },
+        "primaryImage": {
+          "url": "https://picsum.photos/id/200/200/300"
+        }
+      },
+      {
+        "id": "game_003",
+        "title": "Hades II",
+        "description": "La esperada secuela del premiado roguelike de Supergiant Games.",
+        "releaseDate": "2025-03-15",
+        "rating": {
+          "average": 9.1
+        },
+        "primaryImage": {
+          "url": "https://picsum.photos/id/10/200/300"
+        }
+      }
+    ]
+  },
+  "details": {
+    "game_001": {
+      "id": "game_001",
+      "title": "Elden Ring: Shadow of the Erdtree",
+      "description": "Expansión del galardonado juego de FromSoftware. Explora nuevas tierras y enfrenta enemigos letales.",
+      "rating": {
+        "average": 9.5
+      },
+      "images": [
+        {
+          "url": "https://picsum.photos/id/2/200/300",
+          "role": "CARD"
+        },
+        {
+          "url": "https://picsum.photos/id/5/200/300",
+          "role": "SCREENSHOT"
+        }
+      ],
+      "reviewSet": {
+        "reviews": [
+          {
+            "body": "Una expansión sobresaliente en todos los sentidos.",
+            "author": { "name": "IGN" },
+            "date": "2024-06-22",
+            "rating": 9.5
+          },
+          {
+            "body": "Más y mejor: todo lo que un fan podría pedir.",
+            "author": { "name": "GameSpot" },
+            "date": "2024-06-23",
+            "rating": 9.0
+          }
+        ]
+      }
+    },
+    "game_002": {
+      "id": "game_002",
+      "title": "Starfield",
+      "description": "Explora el vasto universo con más de 1000 planetas.",
+      "rating": {
+        "average": 8.3
+      },
+      "images": [
+        {
+          "url": "https://picsum.photos/id/6/200/300",
+          "role": "CARD"
+        }
+      ],
+      "reviewSet": {
+        "reviews": [
+          {
+            "body": "Una experiencia masiva, aunque algo inconsistente.",
+            "author": { "name": "Polygon" },
+            "date": "2023-09-07",
+            "rating": 8.0
+          }
+        ]
+      }
+    },
+    "game_003": {
+      "id": "game_003",
+      "title": "Hades II",
+      "description": "El regreso del dios del inframundo con nuevas mecánicas y narrativa envolvente.",
+      "rating": {
+        "average": 9.1
+      },
+      "images": [
+        { "url": "https://picsum.photos/id/9/200/300", "role": "CARD" }
+      ],
+      "reviewSet": {
+        "reviews": [
+          {
+            "body": "Una secuela impresionante que supera al original.",
+            "author": { "name": "Eurogamer" },
+            "date": "2025-03-20",
+            "rating": 9.2
+          }
+        ]
+      }
+    }
+  }
+}
